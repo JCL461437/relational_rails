@@ -7,7 +7,8 @@ application up and running.
 * Rails: 7.1.3.2
 
 * Database Schema:
- ![](image.png)
+ ![<img width="771" alt="relational_rails_schema" src="https://github.com/JCL461437/relational_rails/assets/161185753/b3e0c6e6-be19-4dda-966a-4e09af0a073f">
+](relational_rails_schema.png)
 
 
 
