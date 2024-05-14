@@ -9,10 +9,12 @@ require 'rails_helper'
 
 
 RSpec.describe 'the fighters index page' do
+
     it 'displays the fighters information' do
+        binding.pry
         aka = Gym.create!(name: 'American Kickboxing Academy', number_of_champions: 7, holds_current_champion: true)
         sbg = Gym.create!(name: "SBG Ireland", number_of_champions: 1, holds_current_champion: false)
-
+        binding.pry
         conor = sbg.fighters.create!(name: 'Conor McGregor',age: 34, style: 'Striker', active: true)
         khabib = aka.fighters.create!(name: 'Khabib Nurmagomedov',age: 34, style: 'Wrestler', active: false)
         dc = aka.fighters.create!(name: 'Daniel Cormier',age: 45, style: 'Wrestler', active: false)

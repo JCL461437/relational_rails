@@ -21,7 +21,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_05_14_194338) do
     t.boolean "active"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "gyms_id", null: false
+    t.bigint "gyms_id", null: true
     t.index ["gyms_id"], name: "index_fighters_on_gyms_id"
   end
 
