@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
   get '/gyms', to: 'gyms#index'
-  get '/gyms:id', to: 'gyms#show'
+  get '/gyms/:id', to: 'gyms#show'
 
   # get '/songs/:id', to: 'songs#show'
   # get '/songs/show_me/:foo', to: "songs#custom"
@@ -21,5 +21,4 @@ Rails.application.routes.draw do
   # post '/artists', to: 'artists#create'
   # get '/artist/:id/edit', to: 'artists#edit'
   # patch '/artists/:id', to: 'artists#update'
-
 end
