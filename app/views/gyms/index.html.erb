@@ -1,4 +1,9 @@
 <h1>Gyms</h1>
 <% @gyms.each do |gym| %> 
     <h3> <%= gym.name %> </h3>
+    <p> Number of UFC Champions: <%= gym.number_of_champions %> </p>
+    <p> Holds Current UFC Champion: <%= gym.holds_current_champion %> </p>
+    <p> To see the subpage for this gym (User Story Two), add "/gym ID" to this page's addres.</5>
 <% end %>
+
+<h4> <%= link_to "Click Here", root_path %> to return to the welcome page. </4>
