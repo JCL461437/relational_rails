@@ -8,7 +8,7 @@ require 'rails_helper'
 # (data from each column that is on the parent table)
 
 RSpec.describe 'the gyms show page' do
-    it 'displays the gym title' do
+    it 'displays the gyms information' do
         aka = Gym.create!(name: 'American Kickboxing Academy', number_of_champions: 7, holds_current_champion: true)
         sbg = Gym.create!(name: "SBG Ireland", number_of_champions: 1, holds_current_champion: false)
 

@@ -240,6 +240,10 @@
           null,
           null,
           1,
+          null,
+          1,
+          1,
+          null,
           1,
           1,
           null,
@@ -280,26 +284,14 @@
           null
         ]
       },
-      "/Users/janlehigh/turing/2mod/projects/relational_rails/app/controllers/gyms_controller.rb": {
+      "/Users/janlehigh/turing/2mod/projects/relational_rails/app/models/fighter.rb": {
         "lines": [
           1,
-          1,
-          0,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/janlehigh/turing/2mod/projects/relational_rails/app/controllers/application_controller.rb": {
-        "lines": [
           1,
           null
         ]
       }
     },
-    "timestamp": 1715721467
+    "timestamp": 1715723025
   }
 }

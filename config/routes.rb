@@ -10,8 +10,12 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   root 'welcome#index'
+  
   get '/gyms', to: 'gyms#index'
   get '/gyms/:id', to: 'gyms#show'
+
+  get '/fighters', to: 'fighters#index'
+  get '/fighters/:id', to: 'fighters#show'
 
   # get '/songs/:id', to: 'songs#show'
   # get '/songs/show_me/:foo', to: "songs#custom"

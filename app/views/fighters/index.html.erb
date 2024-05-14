@@ -1,0 +1,10 @@
+<h1>Fighters</h1>
+<% @fighters.each do |fighter| %> 
+    <h3> <%= fighter.name %> </h3>
+    <p> Fighter Age: <%= fighter.age %> </p>
+    <p> Fighter's Fighting Style <%= fighter.style %> </p>
+    <p> Fighter is active in the UFC <%= fighter.active %> </p>
+    <p> To see the subpage for this fighter (User Story Two), add "/fighter ID" to this page's address.</5>
+<% end %>
+
+<h4> <%= link_to "Click Here", root_path %> to return to the welcome page. </4>
